@@ -9,9 +9,9 @@ np. dla
 
 Jeżeli argument `digits` jest liczbą ujemną, to zwracany ciąg znaków jest liczbą z podaną dokładnością miejsc po przecinku, ale z pominięciem nieznaczących zer.
 np.
--  number: 5.123; digits: 2 --> 5.12
--  number: 5.1; digits: 2 --> 5,1
--  number: 5; digits: 2 --> 5
+-  number: 5.123; digits: -2 --> 5.12
+-  number: 5.1; digits: -2 --> 5,1
+-  number: 5; digits: -2 --> 5
 
 Jeżeli argument `digits` jest równy `0`, to zwróć liczbę całkowitą (jako ciąg znaków).
 
